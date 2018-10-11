@@ -6,4 +6,3 @@ RUN curl https://s3.amazonaws.com/testrpc-shapshots/965d6098294beb22292090c46115
 RUN unzip ./0x_snapshot.zip -d ./0x_snapshot
 EXPOSE 8545
 CMD ganache-cli --networkId 50 -h 0.0.0.0 -p 8545 --db /0x_snapshot -m "concert load couple harbor equip island argue ramp clarify fence smart topic"
-# docker run -it -p 8545:8545 wlchn/ganache-0x
